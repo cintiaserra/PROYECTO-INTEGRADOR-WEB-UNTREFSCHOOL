@@ -1,0 +1,80 @@
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Belanosima&family=Poppins:wght@200&display=swap');
+body{
+    font-family: 'Belanosima', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 20px ;
+    text-align: center;
+    width: 340px;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+h2{
+    color: #f37300;
+    font-size: 35px;
+}
+label{
+    color: #f37300;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+input, textarea{
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: #eff5f5;
+    border: 2px solid #eff5f5;
+    color: #f37300;
+    outline: none;
+}
+input::placeholder, textarea::placeholder{
+    color: #f37300;
+
+}
+.form-txt{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.form-txt a{
+    color: #f37300;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.bnt{
+    font-size: 16px;
+    color: #eff5f5;
+    border: 0;
+    border-radius: 25px;
+    background-color: #f37300;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #f37300;
+}
+@media(max-width: 720px)  {
+    body{
+        padding: 30px;
+    }
+    form{
+        padding: 50px 30px;
+        width: 100%;
+    }
+    input{
+        padding: 15px 10px;
+    }
+}
